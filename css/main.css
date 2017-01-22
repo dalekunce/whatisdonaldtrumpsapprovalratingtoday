@@ -1,0 +1,15 @@
+h1 {
+  margin:auto;
+  padding: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#trumped-number {
+  margin:auto;
+  padding: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 140px;
+  text-align: center;
+}
