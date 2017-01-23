@@ -1,6 +1,8 @@
 body {
   margin: 0 auto;
   padding: 0 auto;
+  background-color: #ed008c;
+  color: #fff;
 }
 
 h1 {
@@ -14,9 +16,17 @@ h1 {
 #trumped-number {
   margin:auto;
   padding: auto;
+  height: 210px;
   font-family: 'Open Sans', sans-serif;
   font-size: 180px;
   text-align: center;
+}
+
+.trumpcard {
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -225px
 }
 
 #source {
@@ -28,48 +38,4 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-align: right;
-}
-
-#speedometer {
-  left: 50%;
-}
-
-.unselectable {
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* css formats for the gauge */
-.gauge .domain {
-    stroke-width: 2px;
-    stroke: #000;
-}
-
-.gauge .tick line {
-    stroke: #000;
-    stroke-width: 2px;
-}
-
-.gauge line {
-    stroke: #000;
-}
-
-.gauge .arc, .gauge .cursor {
-    opacity: 0;
-}
-
-.gauge .major {
-    fill: #000;
-    font-size: 20px;
-    font-family: 'Play', verdana, sans-serif;
-    font-weight: normal;
-}
-
-.gauge .indicator {
-    stroke: #EE3311;
-    fill: #fff;
-    stroke-width: 4px;
 }
